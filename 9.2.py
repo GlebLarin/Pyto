@@ -1,8 +1,4 @@
 def find_max_recursive():
-    """
-    Recursively finds the maximum value in a sequence of natural numbers 
-    entered by the user, ending with 0.
-    """
     try:
         num = int(input())
         if num == 0:
